@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'home.dart';
+import 'package:restaurant/screens/navigation.dart';
 
 class LogIn extends StatefulWidget {
   @override
@@ -168,7 +167,7 @@ class _LogInState extends State<LogIn> {
                       // ),
                       child: Center(
                         child: FlatButton(onPressed: (){
-                          Navigator.push(context, MaterialPageRoute(builder: (_) =>Home()));
+                          Navigator.push(context, MaterialPageRoute(builder: (_) =>Navi()));
                         },
                             child: Padding(
                               padding: const EdgeInsets.all(2.0),
